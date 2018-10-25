@@ -11,6 +11,7 @@ import { TabsPage } from '../pages/tabs/tabs';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { HorarioPage } from '../pages/horario/horario';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ContactPage,
     CardapioPage,
     MensagemPage,
-    TabsPage
+    TabsPage,
+    HorarioPage
   ],
   imports: [
     BrowserModule,
@@ -32,7 +34,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ContactPage,
     CardapioPage,
     MensagemPage,
-    TabsPage
+    TabsPage,
+    HorarioPage
   ],
   providers: [
     StatusBar,
